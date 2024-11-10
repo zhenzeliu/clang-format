@@ -5,5 +5,19 @@ BasedOnStyle: Google
 IndentWidth: 4
 DerivePointerAlignment: false
 PointerAlignment: Left
-ColumnLimit: 80
+ColumnLimit: 90
+InsertNewlineAtEOF: true
+BraceWrapping:
+    AfterClass:      false
+    AfterControlStatement: false
+    AfterEnum:       false
+    AfterFunction:   false
+    AfterNamespace:  false
+    AfterObjCDeclaration: false
+    AfterStruct:     false
+    AfterUnion:      false
+    BeforeCatch:     true
+    BeforeElse:      true
+    IndentBraces:    false
+BreakBeforeBraces: Custom
 ...
